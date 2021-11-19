@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica/Helvetica.ttf");
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin: 0;
+}
+
+#topnav {
+    background-color: black;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    border-bottom: 1px solid seashell;
+    height: 50px;
+    display: block;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo a img {
+    height: 50px;
+    width: auto;
+    opacity: 90%;
+}
+
+#links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#links li {
+    display: table;
+    margin: 0;
+    padding: 0 20px;
+}
+
+#links a {
+    color: seashell;
+    opacity: 90%;
+    text-decoration: underline;
+    display: table-cell;
+}
+
+
+
+#mission-background {
+    background-image: url(../images/img-mission-background.webp);
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mission-content {
+    background-color: black;
+    width: 100%;
+
+}
+
+#mission-content h2 {
+    text-align: center;
+    padding: 0;
+}
+
+#mission-content h4 {
+    text-align: center;
+    padding: 0;
+}
+
+#tea-of-the-month {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    margin: 10%;
+}
+
+#tea-of-the-month-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tea-img {
+    height: 200px;
+    width: 300px;
+}
+
+#locations-section {
+    width: 1200px;
+    height: 700px;
+    background-image: url("../images/img-locations-background.webp");
+}
+
+#locations-section h2 {
+    text-align: center;
+    opacity: 90%;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+#locations-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+.locations {
+    text-align: center;
+    background-color: black;
+    opacity: 90%;
+    width: 300px;
+    height: auto;
+}
+
+.locations h4, p {
+    margin: 25px;
+    opacity: 90%;
+}
+
+footer {
+    position: relative;
+    top: 50px;
+    width: 1200px;
+}
+
+#contact h2, h5 {
+    text-align: center;
+}
+
+#copyright {
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
